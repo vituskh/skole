@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button w3-hover-pale-blue">Dronningens Armé</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button w3-hover-pale-blue">Om os</a>
+      <a href="#menu" class="w3-bar-item w3-button w3-hover-pale-blue">Mærkesager</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hover-pale-blue">Kontakt os</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://www.kongehuset.dk/media/miils1zu/amalienborg-palace_copenhagen_2970x1110.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-center " style="width:100%">
+    <h1 class="w3-xxlarge w3-text-white">Dronningens Armé</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-mobile">
+     <img src="https://www.kongehuset.dk/media/wzfp5ikd/hmd_portr%C3%A6t.jpg" class="w3-round w3-image" alt="Hendes Majestæt"  >
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Hvem er vi?</h1><br>
+      <p class="w3-large">Vi blev skabt i 1985 af Hans Ove Petersen</p>
+    </div>
+</div>
+<video class="w3-container w3-auto w3-block" controls>
+	<source src="your_video's_name.mp4" type="video/mp4">
+	Error Message
+  </video>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 m6 w3-padding-large">
+      <h1 class="w3-center">Vores mærkesager</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large m6 w3-mobile">
+      <img src="https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fcrop%2F2018%2F04%2F12%2F1523531817_kronprinsen-50aar-a_comp_0.jpg" class="w3-round w3-image" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Kontakt os</h1><br>
+    <p>Vi foretrækker alle vores beskeder over brev, da det er et krav, at Hendes Majestæt Dronningen er på alle officielle breve.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Dronningens Arme, Frederiksgade 23, København</b></p>
+    <p>Du kan også ringe til os på +45 25 12 63 15, eller sende os en besked her:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Navn" required name="name"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Titel" required name="title"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Besked" required name="message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND BESKED</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
