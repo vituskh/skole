@@ -1,0 +1,27 @@
+.flexparent {
+  display: flex;
+  justify-content: center;
+  padding: 1% 5% 5% 5%;
+  flex-wrap: wrap;
+}
+main {
+  background-color: #f0f0f0;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  min-height: calc(100vh - 40px - 1em);
+}
+#textContent {
+  padding: 2em;
+  max-width: 90ex;
+}
+
+#videoContent {
+  vertical-align: middle;
+  width: 360px;
+  float: right;
+  margin: 2em 0 0 0;
+}
+#video {
+  border-radius: 8px;
+}
